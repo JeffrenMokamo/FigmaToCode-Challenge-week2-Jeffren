@@ -47,3 +47,15 @@ header{
 .brand{
     padding: 90px 10%;
 }
+
+.hot-category{
+    padding: 0 10%;
+}
+
+.hot-category p{
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
