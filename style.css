@@ -18,4 +18,28 @@ header{
 
 .product{
     background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    padding: 10px 10%;
+}
+
+.product .content{
+    letter-spacing: 1px;
+}
+
+.product .content button{
+    display: inline-flex;
+    padding: 19px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--Black, #1E2832);
+}
+
+#vector{
+    right: 0;
+    top: 35%;
+}
+
+#frame{
+    left: 0;
+    top: 55%;
 }
