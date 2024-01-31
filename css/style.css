@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
+:root{
+    --black: #1E2832;
+    --black-5: rgba(30, 40, 50, 0.05); 
+}
+
 *{
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body{
-    padding: 0;
-    margin: 0;
     font-family: 'Roboto', sans-serif!important;
 }
 
 header{
-    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    background: var(--Black-5);
     padding: 50px 10%;
 }
 
 .product{
-    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    background: var(--Black-5);
     padding: 10px 10%;
 }
 
@@ -31,7 +37,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background: var(--Black, #1E2832);
+    background: var(--Black);
 }
 
 #vector{
@@ -49,7 +55,9 @@ header{
 }
 
 .hot-category{
-    padding: 0 10%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 .hot-category p{
@@ -58,4 +66,12 @@ header{
     font-size: 34px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.grid-products{
+    padding: 0 10%;
+}
+
+.grid-products .top-section-products button{
+    background: var(--Black);
 }
