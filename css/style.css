@@ -81,3 +81,33 @@ header{
     gap: 4px;
     background-color: #1E2832;
 }
+
+.brand-banner{
+    background-image: url('../assets/vectors/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    flex-shrink: 0;
+    padding: 10% 0 5% 55%;
+    margin-bottom: 100px;
+}
+
+.brand-banner #zara_logo{
+    right: 0;
+    margin-top: -34.375rem;
+}
+
+.brand-banner .zara p{
+    font-size: 1.525rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+}
+
+.brand-banner .zara button{
+    display: inline-flex;
+    padding: 19px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
