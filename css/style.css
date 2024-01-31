@@ -25,6 +25,7 @@ header{
 
 .product .product_content{
     width: 80%;
+    padding: 1.25rem 0 2rem 0;
     margin: auto;
 }
 
@@ -50,7 +51,7 @@ header{
 .brand{
     width: 80%;
     margin: auto;
-    padding: 6.25rem 0;
+    padding: 5rem 0;
 }
 
 .hot-category{
@@ -70,6 +71,7 @@ header{
 .grid-products{
     width: 80%;
     margin: auto;
+    margin-bottom: 6.25rem;
 }
 
 .grid-products .top-section-products button{
