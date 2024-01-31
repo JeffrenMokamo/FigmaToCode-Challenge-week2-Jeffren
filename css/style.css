@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-:root{
-    --black: #1E2832;
-    --black-5: rgba(30, 40, 50, 0.05); 
-}
 
 *{
     text-decoration: none;
@@ -15,15 +11,16 @@
 
 body{
     font-family: 'Roboto', sans-serif!important;
+    font-size: 1rem;
 }
 
 header{
-    background: var(--Black-5);
+    background-color: rgba(30, 40, 50, 0.05);
     padding: 50px 10%;
 }
 
 .product{
-    background: var(--Black-5);
+    background-color: rgba(30, 40, 50, 0.05);
     padding: 10px 10%;
 }
 
@@ -37,7 +34,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background: var(--Black);
+    background-color: #1E2832;
 }
 
 #vector{
@@ -73,5 +70,5 @@ header{
 }
 
 .grid-products .top-section-products button{
-    background: var(--Black);
+    background-color: #1E2832;
 }
