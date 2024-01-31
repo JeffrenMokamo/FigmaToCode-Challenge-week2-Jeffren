@@ -21,11 +21,11 @@ header{
 
 .product{
     background-color: rgba(30, 40, 50, 0.05);
-    padding: 10px 10%;
 }
 
-.product .content{
-    letter-spacing: 1px;
+.product .product_content{
+    width: 80%;
+    margin: auto;
 }
 
 .product .content button{
@@ -33,7 +33,7 @@ header{
     padding: 19px 26px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     background-color: #1E2832;
 }
 
@@ -48,7 +48,9 @@ header{
 }
 
 .brand{
-    padding: 90px 10%;
+    width: 80%;
+    margin: auto;
+    padding: 6.25rem 0;
 }
 
 .hot-category{
@@ -60,15 +62,20 @@ header{
 .hot-category p{
     transform: rotate(-90deg);
     flex-shrink: 0;
-    font-size: 34px;
+    font-size: 2.125rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .grid-products{
-    padding: 0 10%;
+    width: 80%;
+    margin: auto;
 }
 
 .grid-products .top-section-products button{
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    gap: 4px;
     background-color: #1E2832;
 }
