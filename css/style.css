@@ -92,18 +92,18 @@ header{
     text-transform: uppercase;
 }
 
+.grid-products{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6.25rem;
+}
+
 .products .cards .card-product .bottom-product .text-bar{
     text-decoration: line-through;
 }
 
 .products .cards .card-product .bottom-product p span{
     color: red;
-}
-
-.grid-products{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 6.25rem;
 }
 
 .slider .splide .card-product .bottom-product .text-bar{
@@ -207,6 +207,13 @@ footer .bottom-footer{
     background-color: #1E2832;
 }
 
+@media (max-width: 1400px){
+    .brand{
+        width: 100%;
+        padding: 5rem 10px;
+    }
+}
+
 @media (max-width: 1024px){
 
     footer .top-footer{
@@ -217,23 +224,49 @@ footer .bottom-footer{
     .newsletter-instagram .instagram .insta{
         width: 100%;
         margin: auto;
+        padding: 10px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 2;
     }
     .brand-banner{
         padding: 10% 0 5% 40%;
     }
+    .brand-banner #zara_logo{
+        margin-top: -32.375rem;
+    }
+    .grid-products .products .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .brand{
 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hot-category .text-cat{
+        margin-top: 15rem;
+    }
 }
 
 @media (max-width: 769px){
 
     footer .bottom-footer{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .brand-banner{
-        padding: 10% 0 5% 25%;
+        padding: 10% 0 5% 20%;
+    }
+    .brand-banner #zara_logo{
+        margin-top: -30.375rem;
+    }
+    .grid-products .products .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .newsletter-instagram .instagram .insta{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hot-category .text-cat{
+        margin-top: 17rem;
     }
 
 }
