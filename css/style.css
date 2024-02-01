@@ -12,6 +12,7 @@
 body{
     font-family: 'Roboto', sans-serif!important;
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 header{
@@ -20,7 +21,7 @@ header{
 }
 
 .product{
-    background-color: rgba(30, 40, 50, 0.05);
+    background-color: hsla(210, 25%, 16%, 0.05);
 }
 
 .product .product_content{
@@ -39,7 +40,7 @@ header{
 }
 
 #vector{
-    right: 0;
+    right: -2%;
     top: 35%;
 }
 
