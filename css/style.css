@@ -246,9 +246,23 @@ footer .bottom-footer{
     .hot-category .text-cat{
         margin-top: 15rem;
     }
+    #frame{
+        top: 75%;
+    }
+    #vector{
+        right: -10%;
+        top: 35%;
+    }
+    .product .product_content{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .product .product_content .content p{
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 769px){
+@media (max-width: 830px){
 
     footer .bottom-footer{
         flex-direction: column-reverse;
@@ -268,5 +282,8 @@ footer .bottom-footer{
     .hot-category .text-cat{
         margin-top: 17rem;
     }
-
+    .product .product_content{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
 }
