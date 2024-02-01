@@ -55,6 +55,18 @@ header{
     padding: 5rem 0;
 }
 
+#arrow-left, #arrow-right{
+    margin-top: 80%;
+}
+
+#arrow-left{
+    left: 2%;
+}
+
+#arrow-right{
+    right: 2%;
+}
+
 .hot-category{
     width: 80%;
     margin: auto;
