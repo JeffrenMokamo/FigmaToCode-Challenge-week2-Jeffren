@@ -15,6 +15,10 @@ body{
     overflow-x: hidden;
 }
 
+.visibility{
+    display: block;
+}
+
 header{
     background-color: rgba(30, 40, 50, 0.05);
     padding: 50px 10%;
@@ -179,6 +183,16 @@ header{
 .newsletter-instagram .newsletter .newsletter-form input, .newsletter-instagram .newsletter .newsletter-form button{
     background-color: transparent;
     border-bottom: 2px solid #000;
+}
+
+.newsletter-instagram .instagram div .insta img{
+    z-index: 1;
+}
+
+.newsletter-instagram .instagram div .insta div{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: none;
 }
 
 footer .top-footer{
