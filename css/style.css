@@ -126,7 +126,6 @@ header{
     background-image: url('../assets/vectors/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px;
     flex-shrink: 0;
     padding: 10% 0 5% 55%;
     margin-bottom: 100px;
@@ -210,12 +209,31 @@ footer .bottom-footer{
 
 @media (max-width: 1024px){
 
+    footer .top-footer{
+        width: 100%;
+        padding: 100px 20px;
+    }
 
+    .newsletter-instagram .instagram .insta{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2;
+    }
+    .brand-banner{
+        padding: 10% 0 5% 40%;
+    }
 
 }
 
 @media (max-width: 769px){
 
-    
+    footer .bottom-footer{
+        flex-direction: column;
+    }
+    .brand-banner{
+        padding: 10% 0 5% 25%;
+    }
 
 }
