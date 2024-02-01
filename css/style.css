@@ -86,10 +86,26 @@ header{
     text-transform: uppercase;
 }
 
+.products .cards .card-product .bottom-product .text-bar{
+    text-decoration: line-through;
+}
+
+.products .cards .card-product .bottom-product p span{
+    color: red;
+}
+
 .grid-products{
     width: 80%;
     margin: auto;
     margin-bottom: 6.25rem;
+}
+
+.slider .splide .card-product .bottom-product .text-bar{
+    text-decoration: line-through;
+}
+
+.slider .splide .card-product .bottom-product p span{
+    color: red;
 }
 
 .grid-products .top-section-products button{
