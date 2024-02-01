@@ -61,6 +61,8 @@ header{
 
 #arrow-left, #arrow-right{
     margin-top: 80%;
+    display: block;
+    display: none;
 }
 
 #arrow-left{
@@ -204,4 +206,16 @@ footer .top-footer{
 footer .bottom-footer{
     padding: 1rem 10%;
     background-color: #1E2832;
+}
+
+@media (max-width: 1024px){
+
+
+
+}
+
+@media (max-width: 769px){
+
+    
+
 }
