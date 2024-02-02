@@ -52,7 +52,7 @@ header{
 }
 
 #vector{
-    right: -2%;
+    right: 0;
     top: 35%;
 }
 
@@ -260,10 +260,6 @@ footer .bottom-footer{
     #frame{
         top: 75%;
     }
-    #vector{
-        right: -10%;
-        top: 35%;
-    }
     .product .product_content{
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -295,6 +291,22 @@ footer .bottom-footer{
     }
     nav ul li a{
         font-size: 1.5rem!important;
+    }
+    .hot-category{
+        width: 100%;
+        padding: 10px;
+    }
+    .grid-products{
+        width: 100%;
+        padding: 10px;
+    } 
+    .slider-products .top-section-products{
+        width: 100%;
+        padding: 10px;
+    }
+    .slider-products .slider{
+        width: 100%;
+        padding: 10px;
     }
 }
 
