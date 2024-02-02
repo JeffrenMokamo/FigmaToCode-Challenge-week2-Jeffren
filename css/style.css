@@ -223,6 +223,9 @@ footer .bottom-footer{
     nav ul li a {
         font-size: 0.850rem!important;
     }
+    .hot-category .text-cat{
+        margin-bottom: 10rem;
+    }
 }
 
 @media (max-width: 1024px){
@@ -255,7 +258,13 @@ footer .bottom-footer{
         grid-template-columns: repeat(2, 1fr);
     }
     .hot-category .text-cat{
-        margin-top: 15rem;
+        margin-left: 0;
+    }
+    .hot-category .text-cat p{
+        transform: rotate(0);
+        font-size: 1.250rem;
+        font-weight: 400;
+        margin-top: -21rem;
     }
     #frame{
         top: 75%;
@@ -339,5 +348,8 @@ footer .bottom-footer{
     }
     .slider-products .top-section-products ul li a{
         font-size: 0.850rem;
+    }
+    .hot-category .text-cat p{
+        margin-top: -19rem;
     }
 }
