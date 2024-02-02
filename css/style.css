@@ -29,7 +29,8 @@ header{
     display: block;
     display: none;
     right: 10px;
-    top: 15%;
+    top: 14.8%;
+    transition: .4s ease-in-out;
 }
 
 .product{
@@ -293,7 +294,7 @@ footer .bottom-footer{
         left: 0;
         right:0;
         bottom: 0;
-        top: 20%;
+        top: 21%;
         position: fixed;
         transform: translate(100%)!important;
     }
