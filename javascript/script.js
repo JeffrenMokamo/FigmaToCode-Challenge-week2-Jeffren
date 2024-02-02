@@ -1,4 +1,7 @@
 const btnScroll = document.querySelector('.scroll-top');
+const btnViewNav = document.getElementById('btnNav');
+
+const navBar = document.querySelector('header nav');
 
 btnScroll.addEventListener('click', function(){
 
@@ -9,5 +12,11 @@ btnScroll.addEventListener('click', function(){
         behavior: "smooth"
 
     })
+
+})
+
+btnViewNav.addEventListener('click', function(){
+
+    navBar.classList.toggle('visibilityNavbar');
 
 })
