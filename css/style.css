@@ -334,4 +334,10 @@ footer .bottom-footer{
         display: grid;
         grid-template-columns: repeat(1, 2fr);
     }
+    .grid-products .top-section-products ul li a{
+        font-size: 0.850rem;
+    }
+    .slider-products .top-section-products ul li a{
+        font-size: 0.850rem;
+    }
 }
