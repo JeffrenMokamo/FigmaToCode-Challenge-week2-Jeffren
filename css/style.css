@@ -358,4 +358,7 @@ footer .bottom-footer{
     .hot-category .text-cat p{
         margin-top: -19rem;
     }
+    .grid-products .products .cards .card-product .bottom-product p span{
+        font-size: 0.850rem;
+    }
 }
